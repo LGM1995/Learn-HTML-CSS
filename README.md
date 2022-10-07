@@ -1,5 +1,7 @@
 # Learn-HTML-CSS
 
+문서화
+
 * browser: Chrome
 * Develop Tools: VScode , CodePen
 ## Learn 01 Html 과 Css
@@ -80,5 +82,157 @@ Html의 큰 골격은 head, body로 나눌 수 있다.
 
 * body: 문서의 내용을 담는 영역 (눈에 보이는 문서에 표시할 모든 내용)
 
-## Learn 05 
+## Learn 05 link 이동
+
+a 태그를 활용하여 페이지 이동이 가능하다
+
+* 기존 페이지에서 새로운 페이지 이동
+```
+<a href="이동할 페이지 url">화면에 표시될 내용</a>
+```
+* 새로운 창에서 페이지 이동
+```
+<a href="이동할 페이지 url" target="_blank">화면에 표시될 내용</a>
+```
+
+## Learn 06 List
+
+리스트는 순서가 있는 리스트와 순서가 없는 리스트로 구분된다.
+
+* 순서가 없는 리스트 (Unorderd List)
+```
+<ul>
+  <li>item1</li>
+  <li>item2</li>
+  <li>item3</li>
+</ul>
+```
+
+* 순서가 있는 리스트 (Ordered List)
+```
+<ol>
+  <li>item1</li>
+  <li>item2</li>
+  <li>item3</li>
+</ol>
+```
+
+## Learn 07 Table
+
+테이블은 헤드와 바디로 구성되어 있으며 각 tr(table row)에 td(table data)들로 이루어진다.
+
+```
+<table border="1">
+  <thead>
+    <tr>
+      <td>기업명</td>
+      <td>주력기기</td>
+      <td>주사용층</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>애플</td>
+      <td>아이폰</td>
+      <td>10대,20대</td>
+    </tr>
+    <tr>
+      <td>삼성</td>
+      <td>갤럭시</td>
+      <td>20대,30대 이상</td>
+    </tr>
+  </tbody>
+  </table>
+```
+
+* 실제 화면에서 모습
+
+
+![](learn-img/learn07/learn07 table.png)
+
+## Learn 08 Input
+
+Input은 클라이언트로 부터 데이터를 입력 받을 때 사용하는 태그로 데이터 정보에 따라 여러가지 방법을 사용할 수 있다.
+
+* input
+```
+<input type="text"> // 텍스트를 입력하는 폼
+<input type="date"> // 날짜를 입력하는 폼
+```
+
+* select
+```
+<select> // 옵션들 중 선택이 가능한 폼
+  <option>남자</option>
+  <option>여자</option>
+</select>
+```
+![](learn-img/learn08/learn08 select.png)
+
+* textarea
+```
+<textarea></textarea> // 대량의 텍스트를 입력 받을 때
+```
+
+* checkbox (다중 선택이 있을 경우 주로 사용)
+```
+<div><input type="checkbox" /><label>Java</label></div>
+<div><input type="checkbox"/><label>Python</label></div>
+<div><input type="checkbox"/><label>C</label></div>
+<div><input type="checkbox"/><label>JS</label></div>
+<div><input type="checkbox"/><label>Vue</label></div>
+```
+![](learn-img/learn08/learn08 checkbox.png)
+
+* radio (name에 같은 값을 주면 다중 선택 불가)
+```
+<div><input type="radio" name="team"/><label>프론트 엔드</label></div>
+<div><input type="radio" name="team"/><label>백 엔드</label></div>
+<div><input type="radio" name="team"/><label>데이터베이스</label></div>
+```
+![](learn-img/learn08/learn08 radio.png)
+
+## Learn 09 Css
+
+css는 HTML구조에 옷을 입히는 것과 같다. style 코드를 통하여 변경이 가능하며
+코드의 지저분함을 없애기 위해 css파일을 만들어 html의 head에서 link를 사용하는 것이 좋다.
+```
+<link rel="stylesheet" href="test.css">
+```
+대상을 가르키기 위해 셀렉터를 사용하며 셀렉터는 태그, 클래스, 아이디 셀렉터가 있다.
+```
+css파일의 주석은 /* */를 사용한다.
+.male { color: #007bff; } /* class 셀렉터는 .이다 */
+
+.female { color: #e43681; }
+
+ul { list-style: none; } /* 태그 셀렉터는 태그 자체를 입력하면 된다 */
+
+#ceo { background-color: #dfe0e1; } /* id 선택자는 #이다 */
+```
+
+## Learn 10 Selector
+
+셀렉터는 기본적으로 태그, 아이디, 클래스 선택이 가능하며 범위로 구분하여 전체 선택, 내부선택, 동시선택 또한 가능하다.
+
+* 전체 선택
+```
+* {
+변경할 스타일
+}
+```
+
+* 내부 선택
+```
+A B { /* A 밑에 B를 선택 */
+변경할 스타일
+}
+```
+
+* 동시 선택
+```
+CD { /* C와 D를 동시 선택 */ 
+변경할 스타일
+}
+```
 
