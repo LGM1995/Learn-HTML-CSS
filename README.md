@@ -278,3 +278,91 @@ CSS Position은 요소 배치를 위한 속성으로 5가지가 있다.
 * fixed: 화면을 기준으로 절대 위치로 이동
 * sticky: 스크롤 시 화면에서 사라지지 않고 들러 붙게함
  
+## Learn 14 Position 예제
+
+* html
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>구글</title>
+    <!-- 구글 머테리얼 아이콘 -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- css 연결 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="fixed-container">
+      <div class="logo">
+        <img src="https://t.ly/QqQK" />
+      </div>
+      <div class="inputs">
+        <span class="material-icons">search</span>
+        <input type="text" />
+        <span class="material-icons">keyboard</span>
+        <span class="material-icons">keyboard_voice</span>
+      </div>
+      <div class="buttons">
+        <button>Google 검색</button>
+        <button>I'm Feeling Lucky</button>
+      </div>
+  </div>
+  </body>
+</html>
+```
+
+* CSS
+```
+.fixed-container {
+  width: 80%;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  /* 이동 */
+  transform: translate(-50%, -50%);
+  /* 가운데 정렬 */
+  text-align: center;
+}
+
+.logo,
+.inputs {
+  margin-bottom: 20px;
+}
+
+.inputs {
+  border: 2px solid lightgray;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.inputs .material-icons {
+  position: relative;
+  top: 5px;
+}
+
+.inputs input {
+  font-size: 20px;
+  padding: 5px;
+  border: none;
+  width: 300px;
+  outline: none;
+}
+
+.buttons button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+}
+```
+* 화면
+![](learn-img/learn14/learn14 google.png)
+
