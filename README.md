@@ -236,3 +236,16 @@ CD { /* C와 D를 동시 선택 */
 }
 ```
 
+## Learn 11 Box Model
+
+![](learn-img/learn11/learn11 box model.png)
+
+* content: 내용물을 담는 곳으로 width와 height로 크기를 정할 수 있다.
+
+
+* padding: content를 포장하는 역할
+
+
+* border: padding의 경계
+
+* margin: border 밖의 여백
