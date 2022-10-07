@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  height: 200vh;
+  background-color: #008bc0;
+  border: 4px solid black;
+
+  position: relative; /* 부모로 지정 */;
+}
+
+.block {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  margin: 5px;
+  border: 4px solid black;
+  font-size: 30px;
+}
+
+#a {
+  position: static;
+}
+
+#b {
+  position: relative;
+  top: 30px; /* top으로부터 n만큼 이동 */
+  left: 30px; /* left로부터 n만큼 이동 */
+}
+
+#c {
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+
+#d {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+#e {
+  position: sticky;
+  top: 0;
+}
