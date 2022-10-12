@@ -366,3 +366,8 @@ CSS Position은 요소 배치를 위한 속성으로 5가지가 있다.
 * 화면
 ![](learn-img/learn14/learn14 google.png)
 
+## Learn 15 Flex
+
+Flex 는 정렬을 위한 Container이다.
+
+주로 div 안에 item들을 정렬 하기 위해 사용된다.
