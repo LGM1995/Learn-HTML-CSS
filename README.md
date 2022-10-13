@@ -1,10 +1,12 @@
 # Learn-HTML-CSS
-
 문서화
 
 * browser: Chrome
 * Develop Tools: VScode , CodePen
 ## Learn 01 Html 과 Css
+<details>
+<summary>Learn 01</summary>
+
 기본적으로 웹은 Client 와 Server 의 동작으로 이루어 집니다.
 이 때 Client는 Server에 request(요청)을 보내고 서버는 요청을 처리하여 Client에 response(응답)을 보냅니다.
 
@@ -12,7 +14,13 @@
 
 Html과 Css는 Front-End영역에 속한 문서의 구조와 디자인을 담당합니다.
 
+</details>
+
 ## Learn 02 CodePen 사용하기
+
+<details>
+<summary>Learn 02</summary>
+
 CodePen을 사용하여 Html, Css, JavaScript를 웹에서 실습할 수 있다.
 
 * CodePen을 사용
@@ -24,7 +32,12 @@ CodePen을 사용하여 Html, Css, JavaScript를 웹에서 실습할 수 있다.
 * VSCode에서 바로 동작 시키기 위한 라이브러리(Live Server) 설치
 ![](learn-img/learn02/learn02-VScod Live Server설치.png)
 
+</details>
+
 ## Learn 03 Html 태그 사용하기
+
+<details>
+<summary>Learn 03</summary>
 
 * text 태그
   * h (머릿말) 
@@ -75,14 +88,24 @@ CodePen을 사용하여 Html, Css, JavaScript를 웹에서 실습할 수 있다.
 <textarea></textarea>
 ```
 
+</details>
+
 ## Learn 04 Html 구조
+
+<details>
+<summary>Learn 04</summary>
 
 Html의 큰 골격은 head, body로 나눌 수 있다.
 * head: html의 정보를 담는 영역 (눈에 보이지 않는 문서의 다양한 정보)
 
 * body: 문서의 내용을 담는 영역 (눈에 보이는 문서에 표시할 모든 내용)
 
+</details>
+
 ## Learn 05 link 이동
+
+<details>
+<summary>Learn 05</summary>
 
 a 태그를 활용하여 페이지 이동이 가능하다
 
@@ -95,7 +118,12 @@ a 태그를 활용하여 페이지 이동이 가능하다
 <a href="이동할 페이지 url" target="_blank">화면에 표시될 내용</a>
 ```
 
+</details>
+
 ## Learn 06 List
+
+<details>
+<summary>Learn 06</summary>
 
 리스트는 순서가 있는 리스트와 순서가 없는 리스트로 구분된다.
 
@@ -117,7 +145,12 @@ a 태그를 활용하여 페이지 이동이 가능하다
 </ol>
 ```
 
+</details>
+
 ## Learn 07 Table
+
+<details>
+<summary>Learn 07</summary>
 
 테이블은 헤드와 바디로 구성되어 있으며 각 tr(table row)에 td(table data)들로 이루어진다.
 
@@ -150,7 +183,12 @@ a 태그를 활용하여 페이지 이동이 가능하다
 
 ![](learn-img/learn07/learn07 table.png)
 
+</details>
+
 ## Learn 08 Input
+
+<details>
+<summary>Learn 08</summary>
 
 Input은 클라이언트로 부터 데이터를 입력 받을 때 사용하는 태그로 데이터 정보에 따라 여러가지 방법을 사용할 수 있다.
 
@@ -192,7 +230,12 @@ Input은 클라이언트로 부터 데이터를 입력 받을 때 사용하는 �
 ```
 ![](learn-img/learn08/learn08 radio.png)
 
+</details>
+
 ## Learn 09 Css
+
+<details>
+<summary>Learn 09</summary>
 
 css는 HTML구조에 옷을 입히는 것과 같다. style 코드를 통하여 변경이 가능하며
 코드의 지저분함을 없애기 위해 css파일을 만들어 html의 head에서 link를 사용하는 것이 좋다.
@@ -211,7 +254,12 @@ ul { list-style: none; } /* 태그 셀렉터는 태그 자체를 입력하면 �
 #ceo { background-color: #dfe0e1; } /* id 선택자는 #이다 */
 ```
 
+</details>
+
 ## Learn 10 Selector
+
+<details>
+<summary>Learn 10</summary>
 
 셀렉터는 기본적으로 태그, 아이디, 클래스 선택이 가능하며 범위로 구분하여 전체 선택, 내부선택, 동시선택 또한 가능하다.
 
@@ -236,7 +284,12 @@ CD { /* C와 D를 동시 선택 */
 }
 ```
 
+</details>
+
 ## Learn 11 Box Model
+
+<details>
+<summary>Learn 11</summary>
 
 ![](learn-img/learn11/learn11 box model.png)
 
@@ -250,7 +303,12 @@ CD { /* C와 D를 동시 선택 */
 
 * margin: border 밖의 여백
 
+</details>
+
 ## Learn 12 블럭과 인라인
+
+<details>
+<summary>Learn 12</summary>
 
 box로 감싸는 모델은 주로 블럭과 인라인이 있는데 둘은 차이점이 있다.
 
@@ -268,7 +326,12 @@ box로 감싸는 모델은 주로 블럭과 인라인이 있는데 둘은 차이
 3. 주로 text를 꾸밀 때, 사용한다.
 ```
 
+</details>
+
 ## Learn 13 CSS Position
+
+<details>
+<summary>Learn 13</summary>
 
 CSS Position은 요소 배치를 위한 속성으로 5가지가 있다.
 
@@ -277,8 +340,13 @@ CSS Position은 요소 배치를 위한 속성으로 5가지가 있다.
 * absolute: 부모(position: relative;)를 기준으로 절대 위치로 이동
 * fixed: 화면을 기준으로 절대 위치로 이동
 * sticky: 스크롤 시 화면에서 사라지지 않고 들러 붙게함
+
+</details>
  
 ## Learn 14 Position 예제
+
+<details>
+<summary>Learn 14</summary>
 
 * html
 ```
@@ -366,8 +434,15 @@ CSS Position은 요소 배치를 위한 속성으로 5가지가 있다.
 * 화면
 ![](learn-img/learn14/learn14 google.png)
 
+</details>
+
 ## Learn 15 Flex
+
+<details>
+<summary>Learn 15</summary>
 
 Flex 는 정렬을 위한 Container이다.
 
 주로 div 안에 item들을 정렬 하기 위해 사용된다.
+
+</details>
