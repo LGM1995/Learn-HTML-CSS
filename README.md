@@ -446,3 +446,6 @@ Flex 는 정렬을 위한 Container이다.
 주로 div 안에 item들을 정렬 하기 위해 사용된다.
 
 </details>
+
+## Learn 16 
+
