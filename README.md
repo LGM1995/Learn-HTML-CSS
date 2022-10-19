@@ -447,9 +447,40 @@ Flex 는 정렬을 위한 Container이다.
 
 </details>
 
-## Learn 16 
+## Learn 16 Flex 연습
 
 <details>
 <summary>Learn 16</summary>
+
+flrx를 사용하면 정렬을 아주 쉽게 적용 시킬수 있다.
+
+```
+.flex-container {
+    border: 4px solid black;
+    height: 300px;
+    background-color: #1498af;
+
+    display: flex;
+    justify-content: center; /* 주축 정렬*/
+    align-items: center; /*교차축 정렬 */
+
+    /*주축을 변경 가능 가로 세로(column) 역방향 다 가능 기본값은 row*/
+    flex-direction: row;
+
+    /*몇줄로 표현할지 나타냄 기본값은 nowrap*/
+    flex-wrap: nowrap;
+}
+
+.item {
+    width: 30px;
+    height: 30px;
+    border: 4px solid black;
+    background-color: #e43681;
+    margin: 5px;
+
+    flex: 1; /* 아이탬들의 크기를 비율의 크기로 고정시킴 width가 소용이 없어짐*/
+    order: 0; /* 아이탬의 순서를 정하는 것으로 기본값은 0이며 뒤로 밀고싶으면 해당 속성을 1이상으로 바꿈*/
+}
+```
 
 </details>
