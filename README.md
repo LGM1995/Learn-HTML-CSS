@@ -1,5 +1,6 @@
 # Learn-HTML-CSS
-문서화
+
+본 예제는 유튜브 홍팍님의 HTML-CSS 강의에서 배운 내용을 학습하고 문서화 하기 위해 제작되었습니다.
 
 * browser: Chrome
 * Develop Tools: VScode , CodePen
