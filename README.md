@@ -485,4 +485,34 @@ flrx를 사용하면 정렬을 아주 쉽게 적용 시킬수 있다.
 
 </details>
 
-## Learn 17 
+## Learn 17 Bootstrap
+<details>
+<summary>Learn 17</summary>
+
+Bootstrap은 Html과 CSS 그리고 JavaScript를 합쳐놓은 라이브러리이다.
+
+사용 방법은 CDN 과 다운로드 방식이 있으며 해당 예제는 CDN 방식을 적용한다.
+
+
+
+부트 스트랩을 이용한 네비게이션, 점보트론 ,테이블 , 버튼 예제
+
+
+이미지
+
+</details>
+
+## Learn 18 Bootstrap 컴포넌트
+
+<details>
+<summary>Learn 18</summary>
+
+Bootstrap 컴포넌트를 이용한 예제
+
+* Navbar
+* d-flex
+
+이미지
+
+</details>
+
